@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <!-- JavaScript externo -->
+  <script type="text/javascript" src="js/script_log.js"></script>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -182,9 +183,9 @@
         <div class="card">
           <form onsubmit="event.preventDefault()" class="box">
             <h1>Login</h1>
-            <p class="text-muted"> Por favor insira seu login e senha!</p> <input type="text" name="Nome do Usuário"
-              placeholder="Nome do Usuário"> <input type="password" name="Senha" placeholder="Senha"> <a
-              class="forgot text-muted" href="#">Esqueceu a senha?</a> <input type="submit" name="" value="ENTRAR"
+            <p class="text-muted"> Por favor insira seu login e senha!</p> <input type="text"  id ="user" name="Nome do Usuário"
+              placeholder="Nome do Usuário"> <input type="password"  id="senha" name="Senha" placeholder="Senha"> <a
+              class="forgot text-muted" href="#">Esqueceu a senha?</a> <input type="submit" onclick="logar()" name="" value="ENTRAR"
               href="#">
             <div class="col-md-12">
               <ul class="social-network social-circle">
