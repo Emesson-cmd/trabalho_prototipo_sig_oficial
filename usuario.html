@@ -164,14 +164,16 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="img/CARRO02.jpg" alt="LOGO" width="90px" height="60px">
+    <a class="navbar-brand" href="#">LOGO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-      
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Ínicio</a>
+        </li>
       </ul>
     </div>
     <form class="form-inline">
@@ -179,6 +181,56 @@
           href="login.html">LOGIN</a></button>
     </form>
   </nav>
+
+  <style>
+    h2{
+      color: rgb(0, 0, 0);
+    }
+  </style>
+  <h2 style="text-align: center;">SIg para Estacionamento</h2>
+
+  <br><br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+
+        <div class="card col" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gerar cupons</h5>
+            <p class="card-text">Gerar cupons automaticamente para o motorista com código de barras e/ou QR code.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          </div>
+
+          <div style="width: 2rem;"></div>
+
+          <div class="card col" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gerenciar pagamento</h5>
+              <p class="card-text">O sistema é capaz de lidar com várias formas de pagamento e com auto nível de
+                segurança.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div style="width: 2rem;"></div>
+
+          <div class="card col" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Segurança</h5>
+              <p class="card-text">Segurança se integra às câmeras de segurança instaladas no estacionamento. Faz a
+                verificação da entrada e saída de cada cliente/motorista.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
     <footer class="bd-footer py-5 mt-5 bg-light">
       <div class="container py-5">
@@ -196,30 +248,28 @@
               <span class="fs-5">Bootstrap</span>
             </a>
             <ul class="list-unstyled small text-muted">
-              <li class="mb-2">Esse pequeno site foi desenvolvido com a ajuda do Bootstrap: <a
-                  href="/docs/5.0/about/team/">Time do bootstrap</a> com ajuda de <a
-                  href="https://github.com/twbs/bootstrap/graphs/contributors">nossos contribuidores</a>.</li>
-              <li class="mb-2">Código licensiado <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE"
+              <li class="mb-2">Designed and built with all the love in the world by the <a
+                  href="/docs/5.0/about/team/">Bootstrap team</a> with the help of <a
+                  href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+              <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE"
                   target="_blank" rel="license noopener">MIT</a>, docs <a
                   href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY
                   3.0</a>.</li>
-              <li class="mb-2">Atual versão v5.0.1.</li>
+              <li class="mb-2">Currently v5.0.1.</li>
             </ul>
           </div>
-
           <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-            <h5>Equipe</h5>
+            <h5>Links</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href=""><img></img>Jarbas Junior</a></li>
-              <li class="mb-2"><a href=""><img></img>Guylherme Sales</a></li>
-              <li class="mb-2"><a href=""><img></img>Vinicius Correia</a></li>
-              <li class="mb-2"><a href=""><img></img>José Ulisses</a></li>
-              <li class="mb-2"><a href=""><img></img>Emesson Cavalcante</a></li>
+              <li class="mb-2"><a href="/">Home</a></li>
+              <li class="mb-2"><a href="/docs/5.0/">Docs</a></li>
+              <li class="mb-2"><a href="/docs/5.0/examples/">Examples</a></li>
+              <li class="mb-2"><a href="https://opencollective.com/bootstrap">Themes</a></li>
+              <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
             </ul>
           </div>
-
           <div class="col-6 col-lg-2 mb-3">
-            <h5>Links</h5>
+            <h5>Guides</h5>
             <ul class="list-unstyled">
               <li class="mb-2"><a href="/docs/5.0/getting-started/">Getting started</a></li>
               <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">Starter template</a></li>
@@ -229,7 +279,7 @@
           </div>
           <div class="col-6 col-lg-2 mb-3"></div>
           <div class="col-6 col-lg-2 mb-3">
-            <h5>GitHub</h5>
+            <h5>Projects</h5>
             <ul class="list-unstyled">
               <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
               <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
