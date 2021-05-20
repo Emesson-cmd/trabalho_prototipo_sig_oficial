@@ -9,7 +9,7 @@ function logar(){
     valo_senha = String(senha.value);
    
     if((valo_user == "admin") && (valo_senha=="admin123")){
-        window.location.replace("index.html");
+        window.location.replace("usuario.html");
     }else{
        alert("Usuario ou senha invalida");
        usuario.value="";
