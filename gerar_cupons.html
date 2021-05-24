@@ -200,38 +200,75 @@
   <br>
 
   <style>
-      section {
-          padding-left: 20px;
-          text-align: center;
-      }
+    .meio {
+      padding-left: 20px;
+    }
   </style>
+    <section class="meio">
+      <form>
+        <form>
 
-    <section>
-        <form action="">
-            <label for="nome">NOME COMPLETO:</label><br>
-            <input type="text"><br>
+          <div class="mb-3 col-lg-4">
+            <label for="exampleInputEmail1" class="form-label">Nome completo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
 
-            <label for="CPF">CPF:</label><br>
-            <input type="text"><br>
+          <div class="mb-3 col-lg-4">
+            <label for="exampleInputPassword1" class="form-label">CPF</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
 
-            <label for="idade">IDADE</label><br>
-            <input type="number"><br><br>
+          <div class="mb-3 col-lg-4">
+            <label for="exampleInputPassword1" class="form-label">IDADE</label>
+            <input type="NUMBER" class="form-control" id="exampleInputPassword1">
+          </div>
 
-            <label for="">PLACA DO VEÍCULO VEÍCULO</label><br>
-            <input type="text"><br>
+          <div class="mb-3 col-lg-4">
+            <label for="exampleInputPassword1" class="form-label">PLACA DO VEÍCULO</label>
+            <input type="TEXT" class="form-control" id="exampleInputPassword1">
+          </div>
 
-            <label for="">TEMPO NO ESTACIONAMENTO</label><br>
-            <input type="text"><br>
-            
-            <label for="">CUPOM DE DESCONTO</label><br>
-            <input type="text"><br>
+          <br>
 
-            <label for="">TEM PLANO MENSAL?</label><br>
-            <input type="text"><br>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              TEMPO NO ESTACIONAMENTO
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">1 HORA</a></li>
+              <li><a class="dropdown-item" href="#">2 HORAS</a></li>
+              <li><a class="dropdown-item" href="#">3 HORAS</a></li>
+              <li><a class="dropdown-item" href="#">MAIS DE 3 HORAS</a></li>
+            </ul>
+          </div>
 
-            <label for="">CÓDIGO DO PLANO</label><br>
-            <input type="text"><br>
+          <br>
+
+          <div class="form-check">
+            <p>TEM CUPOM?</p>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              TENHO
+            </label>
+            <input type="text">
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              NÃO TENHO
+            </label>
+          </div>
+
+          <br>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Não sou um robô</label>
+          </div>
+           
+          <button type="submit" class="btn btn-primary">CRIAR CUPOM</button>
         </form>
+      </form>
     </section>
 
     <footer class="bd-footer py-5 mt-5 bg-light">
