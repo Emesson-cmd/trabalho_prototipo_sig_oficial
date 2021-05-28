@@ -183,13 +183,27 @@
       <div class="col-md-6">
         <div class="card">
           <form onsubmit="event.preventDefault()" class="box">
-            <h1>Login</h1>
-            <p class="text-muted"> Por favor insira seu login e senha!</p> <input type="text"  id ="user" name="Nome do Usuário"
-              placeholder="Nome do Usuário"> <input type="password"  id="senha" name="Senha" placeholder="Senha"> <a
-              class="forgot text-muted" href="#">Esqueceu a senha?</a> <input type="submit" onclick="logar()" name="" value="ENTRAR"
-              href="#">
+            <h1>Cadastro</h1>
+
+            <p class="text-muted"> Nome completo</p> 
+            <input type="text"  id ="user" name="Nome do Usuário"
+              placeholder="Nome completo"> 
+
+              <p class="text-muted"> E-mail</p> 
+              <input type="text"  id ="email" name="email eletronico"
+                placeholder="Email eletrônico"> 
+
+              <p class="text-muted"> Digite uma senha</p> 
+              <input type="password"  id="senha" name="Senha" placeholder="Senha"> 
+              
+              <p class="text-muted"> Repita a senha</p> 
+              <input type="password"  id="rsenha" name="rSenha" placeholder="Repita a senha"> 
+
               <a
-              class="forgot text-muted" href="cadastro.html">Ainda não tem uma conta?</a>
+              class="forgot text-muted" href="#">Precisa de ajuda?</a> 
+
+              <input type="submit" onclick="logar()" name="" value="CADASTRAR"
+              href="#">
             <div class="col-md-12">
               <ul class="social-network social-circle">
                 <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
